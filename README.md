@@ -15,7 +15,24 @@ This project is designed to process and aggregate data from various sources, inc
 
 ## Project Structure
 
-
+data-preprocessing/
+│
+├── cleaning/
+│   ├── dataAggregator.ipynb
+│   ├── dataCombiner.ipynb
+│   └── Data/
+│       └── NVDA/
+│           └── processedData/                  This section is moved to DB
+│               ├── 2019q4_notes/
+│               │   ├── sub.tsv
+│               │   └── txt.tsv
+│               ├── 2020q1_notes/
+│               │   ├── sub.tsv
+│               │   └── txt.tsv
+│               └── ...
+├── extracted_summary_2024-12-03_145245.txt
+├── requirements.txt
+└── README.md
 
 ## Installation
 
@@ -33,7 +50,9 @@ This project is designed to process and aggregate data from various sources, inc
     pip install pandas sqlite3
     ``` 
 
-TODO:Do the same with each folders requirements.txt
+TODO: add requirements.txt (pip freeze > requirements.txt)
+
+
 
 ## Usage
 FIXME:
