@@ -1,0 +1,20 @@
+[ ]  FIXME://SELECT a.tag
+FROM "processdDB" a
+JOIN "processdDB" b ON a.tag = b.tag
+WHERE a.company = 'NVIDIA CORP' AND b.company = 'APPLE INC';
+
+
+New COlumns:
+
+Business
+RF: Risk Factors
+URFC: Unresolved Staff Comments
+Cybersecurity
+Properties
+MDAFC: Management's Discussion and Analysis of Financial Condition and Results of Operations
+QQDMR: Quantitative and Qualitative Disclosures About Market Risk
+FSSD: Financial Statements and Supplementary Data
+
+
+SELECT * FROM "processdDB" WHERE name like "APP%" LIMIT 100 OFFSET 7500
+

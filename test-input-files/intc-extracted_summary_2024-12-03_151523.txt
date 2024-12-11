@@ -1,0 +1,7 @@
+"We are infusing AI into Intel technologies, supporting today's GenAI workloads, fueling emerging usages like AI PC and AI at the edge, and pioneering innovations that we believe advance the future of AI in the next decade.
+We are also scaling the availability of Intel\u00ae Developer Cloud, which is designed to enable developers to learn, prototype, test, and run their own AI workloads across multiple Intel hardware architectures to experience the competitive performance of Intel platforms and develop their AI software from today\u2019s hardware portfolio to next-generation architectures.
+We believe our leadership in IP, process, packaging, security, software, services, manufacturing, and foundry services positions us to realize AI's full potential to transform industries and solve the world's biggest challenges. \t\t\t\t\t\t\t\t 
+We are expediting an open AI software ecosystem that we believe is needed to break down proprietary walls.
+We are committed to co-engineering and jointly designing, building, and validating new products with software industry leaders to accelerate mutual technology advancements and help new software and hardware work better together.
+Our use of foundry capacity will include manufacturing for a range of modular tiles on advanced process technologies.
+An open approach and deep engagement with the developer ecosystem are essential to lowering barriers to entry and unlocking AI innovations for developers and customers."

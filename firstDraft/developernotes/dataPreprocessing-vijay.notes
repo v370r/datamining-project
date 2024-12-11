@@ -1,0 +1,30 @@
+Data Preprocessing:
+        [√] Data Colletion: Created a script that bypasses trational automation blockers.(Uff Not so secure lol)
+            [√] Implemented concurrency to speed up the process.(took < 5 min to download all files)
+        [√] Data processing: 
+            [√] Process the zip files to normal folders 
+            [√] Process the data for a specific company and create a dataframe
+                (Note: develop such a way that 126GB can be processed with less RAM)
+            [√] Create a sqlite database for the processed data (Using oneDrive as storage #freeStuff)
+        [√] Model:
+            [!] Think of model to apply on this data
+
+
+
+Format of DB:
+    Table: ProcessedData
+        Columns:
+            - StockName
+            - type (10 Q OR 8Q) //FIXME: Check the types
+            - tag
+            - valueE
+
+
+New tags as per peter:
+    Business
+    Risk Factor
+    Unresolved staff comments
+    Cybersecurity
+    Manageents Discussion and Analsis of financial condition : MDAFC
+    Quantitative and Qualitative Disclosure about Market Risk:  QQDMR
+    Financial Statements and Supplementary Data: FSSD
