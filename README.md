@@ -2,8 +2,7 @@
 
 ## Overview
 
-FIXME: 
-This project is designed to process and aggregate data from various sources, including TSV files and SQLite databases. The primary goal is to extract, filter, and combine data related to specific companies, and then store the processed data in an SQLite database for further analysis.
+This project involves sentiment analysis and findng meaningful relations between companies.
 
 ## Features
 
