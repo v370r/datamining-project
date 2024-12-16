@@ -92,7 +92,7 @@ data-preprocessing/
   #### Overview
   This script clusters companies based on keyword embeddings, using k-means clustering to identify optimal groups based on silhouette scores and inertia.
 
-    **Readme**: [direction-analysisi-readme](./direction-analysis-spacy-README.md)
+  **Readme**: [direction-analysisi-readme](./direction-analysis-spacy-README.md)
   **CodePath**: [direction-analysis-code](./direction-analysis-spacy.py)
 
   #### Outputs
@@ -102,6 +102,50 @@ data-preprocessing/
 ### Hidden Stock Analyzer
   #### Overview
   Analyzes and visualizes statistics collected from the Decision Tree Hidden Stock script.
+
+  **Readme**: [Hidden Stock Analyzer Readme](./hidden-stock-analyzer-README.md)
+  **CodePath**: [Hidden Stock Analyzer](./hidden-stock-analyzer.py)
+
+  #### Outputs
+  - Accuracy plots for each stock
+  - Average accuracy plot across all hyperparameter settings.
+
+### Keyword Topic Modelling
+  #### Overview
+  Processes text data using NLP techniques, including keyword extraction, topic modeling, and summarization. Results are stored in the analyzedDB table in a SQLite database.
+
+  **Readme**: [Keyword Topic Modelling](./keyword-topicmodelling-README.md)
+  **CodePath**: [ Keyword Topic Modelling](./keyword-topicmodelling.py)
+
+  #### Output
+  - analyzedDB table with processed text and metadata.
+
+### Multi-Stock Price Prediction Using Sentiment Analysis
+  #### Overview
+  Predicts stock prices using historical data and sentiment analysis with an LSTM-based model.
+
+  **Readme**: [Multi-Stock Price Predictor](./sentiment_readme.md)
+  **CodePath**: [Multi-Stock Price Prediction](./sentiment.py)
+
+  #### Features
+  - Custom PyTorch Dataset for handling stock price and sentiment data.
+  - Model evaluation along with visualization of predictions.
+
+
+### Sentiment Analysisi Using DistilBERT
+#### Overview
+A sentiment analysis tool using a fine-tuned DistilBERT model to process textual data and compute average sentiment scores.
+#### Usage Example
+```sh
+from sentiment_analyzer import SentimentAnalyzer
+
+sa = SentimentAnalyzer()
+sa.add_text("Sample text here.")
+sentiment_score = sa.get_sentiment_batch()
+print(f"Sentiment Score: {sentiment_score}")
+sa.reset()
+
+```
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
